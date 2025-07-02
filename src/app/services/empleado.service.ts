@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 export class EmpleadoService {
 
   //propiedades
-  baseUri: string = 'https://emp-back-4ibl.onrender.com'; //esta parte se cambia cuando se hostee
+  baseUri: string = 'https://emp-back-4ibl.onrender.com/api'; //esta parte se cambia cuando se hostee
   headers = new HttpHeaders().set('Content-Type', 'application/json');
 
   constructor(private http:HttpClient) { }
